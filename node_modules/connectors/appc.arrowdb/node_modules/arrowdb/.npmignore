@@ -1,0 +1,9 @@
+.DS_Store
+._*
+test
+.project
+.settings
+node_modules
+.git*
+*.sublime-project
+*.sublime-workspace
