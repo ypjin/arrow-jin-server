@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+
+  arrow-jin-server:
+    image: ypjin/arrow-jin-server:latest
+    networks:
+      - arrow-jin
+    ports:
+      - 9100:80
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:3.4.10-jessie
+    networks:
+      - arrow-jin
+    volumes:
+      - db-data:/data/db
+
+volumes:
+  db-data:
+
+networks:
+  arrow-jin:

@@ -5,7 +5,7 @@
 module.exports = {
   connectors: {
     'appc.mongo': {
-      url: 'mongodb://localhost/arrowcloud',
+      url: 'mongodb://localhost/arrow',
 
       // Create models based on the schema that can be used in your API.
       generateModelsFromSchema: true,

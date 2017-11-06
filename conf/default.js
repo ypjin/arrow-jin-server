@@ -65,7 +65,7 @@ module.exports = {
 		// set to true to allow the admin website to be accessed in production. however, you will still need a
 		// login unless disableAuth is false. if you set this to false, the admin website will not be enabled
 		// when in production (still respects enabled above)
-		enableAdminInProduction: false,
+		enableAdminInProduction: true,
 		// The hostnames or IPs from which connections to admin are allowed. Hostnames must be resolvable on the
 		// server. IP ranges can also be specified. e.g. [ 'localhost', '192.168.1.0/24', '10.1.1.1' ]
 		// An empty list [] will allow unrestricted access, though this is not recommended due to security concerns.
