@@ -12,6 +12,7 @@
     "repository": {},
     "private": true,
     "dependencies": {
+        "arrow": "^1.10.2",
         "async": "^1.5.0",
         "lodash": "^3.10.1",
         "pkginfo": "^0.3.1"
@@ -30,7 +31,7 @@
     "main": "app.js",
     "healthCheck": true,
     "scripts": {
-        "start": "appc run",
+        "start": "node ./start.js",
         "test": "grunt"
     }
 }
